@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Select tfvars file') {
       steps {
-        input message: 'Enter tfvars filename:', parameters: [string(defaultValue: 'terraform.tfvars', description: 'Enter the filename of the tfvars file', name: 'filename')]
+        input message: 'Enter tfvars filename:', parameters: [string(defaultValue: 'dev.tfvars', description: 'Enter the filename of the tfvars file', name: 'filename')]
       }
     }
  
