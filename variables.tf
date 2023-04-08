@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "key_name" {
   type    = string
-  default = "example-key"
+  default = "AprilKey"
 }
 
 variable "subnet_id" {
